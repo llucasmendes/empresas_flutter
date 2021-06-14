@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:seafarer/seafarer.dart';
 
-import 'package:empresas_flutter/configs/routes/routes.dart';
 import 'package:empresas_flutter/configs/ui/Cores.dart';
 import 'package:empresas_flutter/configs/ui/DimensoesTela.dart';
 import 'package:empresas_flutter/configs/ui/Fontes.dart';
@@ -33,10 +32,6 @@ class _PefilEmpresaScreenState extends State<PefilEmpresaScreen> {
     empresaId = Seafarer.param<int>(context, 'enterprise_id')!;
     cubit = dependencia<PerfilEmpresaCubit>();
     cubit.buscarById(empresaId);
-  }
-
-  _aoApertarVoltar() {
-    Routes.sailor.pop();
   }
 
   @override

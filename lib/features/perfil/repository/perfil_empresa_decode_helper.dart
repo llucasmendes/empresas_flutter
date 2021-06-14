@@ -1,5 +1,4 @@
 import 'package:dartz/dartz.dart';
-import 'package:meta/meta.dart';
 import 'package:empresas_flutter/configs/ui/Strings.dart';
 import 'package:empresas_flutter/configs/utils/ApiResult.dart';
 import 'package:empresas_flutter/features/perfil/model/perfil_empresa_model.dart';

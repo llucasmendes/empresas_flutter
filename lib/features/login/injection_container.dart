@@ -8,7 +8,6 @@ import 'package:empresas_flutter/features/login/repository/login_repository.dart
 import 'package:empresas_flutter/features/login/screen/bloc/login_cubit.dart';
 import 'package:empresas_flutter/features/login/usecases/gravar_cabecalhos_local_usecase.dart';
 import 'package:empresas_flutter/features/login/usecases/realizar_login_usecase.dart';
-import 'package:empresas_flutter/features/splash/usecases/buscar_cabecalhos_local_usecase.dart';
 
 class LoginInjection {
   void injetar(GetIt dependencia) {

@@ -56,7 +56,7 @@ class HomeScreenCubit extends Cubit<HomeState> with UnauthorizedMixin {
   }
 
   void _iniciarDebounce({required Function callback}) {
-    if (_debounce.isActive ?? false) {
+    if (_debounce.isActive) {
       _debounce.cancel();
     }
 
