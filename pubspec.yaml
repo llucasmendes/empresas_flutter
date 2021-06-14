@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   bloc: ^7.0.0
+  bloc_test: ^8.0.2
   cached_network_image: ^3.0.0
   connectivity: ^3.0.6
   cupertino_icons: ^1.0.2
