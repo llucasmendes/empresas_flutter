@@ -12,10 +12,13 @@ dependencies:
   flutter:
     sdk: flutter
   bloc: ^7.0.0
+  connectivity: ^3.0.6
   cupertino_icons: ^1.0.2
+  dio: ^4.0.0
   equatable: ^2.0.2
   flutter_bloc: ^7.0.1
   shared_preferences: ^2.0.6
+  seafarer: ^0.1.0
 
 dev_dependencies:
   flutter_test:

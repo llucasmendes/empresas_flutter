@@ -1,18 +1,19 @@
+import 'package:empresas_flutter/app.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
-void main() {
-  runApp(MyApp());
-}
+import 'package:empresas_flutter/core/ui/Cores.dart';
+import 'package:empresas_flutter/injection_container.dart' as injection;
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Empresas Flutter',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Container(),
-    );
-  }
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await injection.init();
+  Routes.createRoutes();
+  SystemChrome.setSystemUIOverlayStyle(
+    SystemUiOverlayStyle(statusBarColor: Cores.preto),
+  );
+  SystemChrome.setPreferredOrientations(
+    [DeviceOrientation.portraitUp],
+  );
+  runApp(IoasysSelecao());
 }
