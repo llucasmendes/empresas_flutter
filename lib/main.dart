@@ -1,8 +1,8 @@
-import 'package:empresas_flutter/app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import 'package:empresas_flutter/core/ui/Cores.dart';
+import 'package:empresas_flutter/app.dart';
+import 'package:empresas_flutter/configs/routes/routes.dart';
+import 'package:empresas_flutter/configs/ui/Cores.dart';
 import 'package:empresas_flutter/injection_container.dart' as injection;
 
 void main() async {

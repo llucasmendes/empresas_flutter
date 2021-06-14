@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:seafarer/seafarer.dart';
-import 'package:empresas_flutter/core/routes/routes.dart';
-import 'package:empresas_flutter/core/ui/Cores.dart';
-import 'package:empresas_flutter/core/ui/Fontes.dart';
+import 'package:empresas_flutter/configs/routes/routes.dart';
+import 'package:empresas_flutter/configs/ui/Cores.dart';
+import 'package:empresas_flutter/configs/ui/Fontes.dart';
 import 'package:empresas_flutter/features/splash/screens/splash_screen.dart';
 
 class IoasysSelecao extends StatelessWidget {
